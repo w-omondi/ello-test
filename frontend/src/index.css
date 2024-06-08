@@ -1,0 +1,20 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --primary: #5ACCCC;
+    --secondary-color: #CFFAFA
+}
+
+body {
+    margin: 0;
+    font-family: "Mulish", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+
