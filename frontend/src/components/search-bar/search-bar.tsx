@@ -23,7 +23,7 @@ function SearchBar() {
         return () => {
             clearInterval(debounceId)
         }
-    }, [search]);
+    }, [search, setSearchParams]);
 
 
     const handleSearchChange = (e: React.ChangeEvent<HTMLInputElement>) => {
