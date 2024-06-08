@@ -8,7 +8,7 @@ interface IGql {
 export default function GraphqlContext(props: IGql) {
     const client = new ApolloClient({
         cache: new InMemoryCache(),
-        uri: process.env.SERVER_URL
+        uri: process.env.REACT_APP_SERVER_URL
     })
     return (
         <ApolloProvider client={client}>
